@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const Main = styled.main`
     background-color  :var(--black);
     color: var(--white);
-    flex:1;
+    flex: 1;
     padding-top:50px;
     padding-left:5%;
     padding-right:5%;
@@ -15,13 +15,13 @@ const Main = styled.main`
 
 function PageDefault({ children }) {
     return (
-        <div>
+        <>
             <Menu />
             <Main>
                 {children}
             </Main>
             <Footer />
-        </div>
+        </>
     );
 }
 
