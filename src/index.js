@@ -8,7 +8,10 @@ import {
   Route,
   BrowserRouter
 } from "react-router-dom";
+<<<<<<< HEAD
 import CadastroCategoria from './pages/cadastro/categoria';
+=======
+>>>>>>> master
 
 
 //criar um jogo para pagina 404
@@ -18,9 +21,14 @@ ReactDOM.render(
   <BrowserRouter>
 
     <Switch>
+<<<<<<< HEAD
 
       <Route path="/cadastro/video" component={CadastroVideo} />
       <Route path="/cadastro/categoria" component={CadastroCategoria} />
+=======
+      
+      <Route path="/cadastro/video" component={CadastroVideo} />
+>>>>>>> master
       <Route path="/" component={Home} exact />
       <Route component={Pagina404} />
     </Switch>

@@ -25,7 +25,12 @@ a {
 } 
 
 #root {
+<<<<<<< HEAD
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
+=======
+  min-height: 100vh;
+  background: orange;
+>>>>>>> master
 }
