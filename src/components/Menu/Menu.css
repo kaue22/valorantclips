@@ -54,4 +54,9 @@
       border: 0;
       text-align: center;
     }
+
+.eSwYtm {
+    padding-top: 100px;
+    flex-direction: column;
+}
   }
